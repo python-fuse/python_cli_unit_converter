@@ -26,23 +26,25 @@ Sample Output
 
 
 Unit Converter
-Commands:
-"1" for weight conversion
-"2" for length/distance conversion
-"3" for temperature conversion
-"4" to quit program
-Enter a command: 1
-Weight Conversion
-Enter value in Kg: 50
-Conversion result:
-Kg:50.0 kg
-Pound:110.25 pounds
-Ounce:1763.7 ounces
+
+
+    Commands:
+    "1" for weight conversion
+    "2" for length/distance conversion
+    "3" for temperature conversion
+    "4" to quit program
+    Enter a command: 1
+    Weight Conversion
+    Enter value in Kg: 50
+    Conversion result:
+    Kg:50.0 kg
+    Pound:110.25 pounds
+    Ounce:1763.7 ounces
 
 Note
 
-    The script uses a while loop to keep the program running until the user decides to quit.
-    If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
+The script uses a while loop to keep the program running until the user decides to quit.
+If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
 Credits
 
