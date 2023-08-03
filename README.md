@@ -24,7 +24,6 @@ Conversion Options
 
 Sample Output
 
-vbnet
 
 Unit Converter
 Commands:
