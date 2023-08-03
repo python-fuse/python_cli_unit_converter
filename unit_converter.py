@@ -41,8 +41,9 @@ def getInput(string):
     try:
         return float(input(f'Enter value in {string}: '))
     #Incase it is not we print an error and retry
-    except ValueError or TypeError:
+    except (ValueError,TypeError):
         print('Invalid input!')
+	print('Please make sure the provided input is in numbers')
         return getInput(string)
 
         
@@ -108,7 +109,8 @@ def main():
         quit()
     # Incase the input doesnt match any option above, we print an error and try taking input again
     else:
-        print('Invalid command:')
+        print('Invalid command')
+	print('You typed a non-existing command')
 
 # Our program Starting point
 if __name__ == '__main__':
